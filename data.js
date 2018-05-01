@@ -7,12 +7,19 @@
 // also be just the raw JS if it's small enough, an array of source files or a ZIP file.
 // See examples below.
 module.exports = [{
-    name: "sprites.js",
-    github: "wisniewski94/sprites.js",
-    tags: ["sprite", "canvas", "sprites.js", "requestAnimationFrame", "raf", "front-end", "frontend", "javascript"],
-    description: "Sprites.js is simple canvas sprites animation library. No setTimeout() or setInterval(). Just rAF.",
-    url: "https://github.com/wisniewski94/sprites.js",
-    source: "https://raw.githubusercontent.com/wisniewski94/sprites.js/master/sprites.js"
+    name: "thataway",
+    github: "kristoferjoseph/thataway",
+    tags: ["router", "url", "minimal", "javascript", "tiny"],
+    description: "Minimal URL router library",
+    url: "https://github.com/kristoferjoseph/thataway",
+    source: "https://raw.githubusercontent.com/kristoferjoseph/thataway/master/thataway.umd.js"
+  },{
+    name: "redeux",
+    github: "kristoferjoseph/redeux",
+    tags: ["flux", "unudirectional", "data", "utility", "reducer", "store"],
+    description: "Minimal unidirectional data flow utility library",
+    url: "https://github.com/kristoferjoseph/redeux",
+    source: "https://raw.githubusercontent.com/kristoferjoseph/redeux/master/redeux.umd.js"
   },
   {
     name: "VP PubSub",
